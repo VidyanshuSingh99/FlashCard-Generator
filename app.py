@@ -3,7 +3,7 @@ from llm_utils import generate_flashcards
 from utils import extract_text_from_pdf
 
 st.set_page_config(page_title="Flashcard Generator", layout="centered")
-st.title("📚 AI Flashcard Generator (DeepSeek via OpenRouter)")
+st.title("📚 AI Flashcard Generator")
 
 input_option = st.radio("Choose Input Type", ["Paste Text", "Upload File"])
 subject = st.selectbox("📘 Select Subject (optional)", ["", "Biology", "History", "Physics", "Computer Science", "Geography"])
